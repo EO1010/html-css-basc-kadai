@@ -1,16 +1,16 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-
+p,a {
+    font-size: 20px;
+}
 body {
     font-family: Arial, sans-serif;
 }
 
 header {
     background-color: rgb(244, 79, 79);
-    padding-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ header h1 {
     color: rgb(255, 255, 255);
 }
 main {
-    margin: 10px;
+    padding: 10px;
 }
 
 #parent {
@@ -30,7 +30,7 @@ main {
     border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
-    margin: 5px 0;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -61,15 +61,15 @@ footer {
     padding: 20px 0;
 }
 
-footer a {
+a {
     color: rgb(255, 255, 255);
 }
 
-footer a:visited {
+a:visited {
     color: rgb(193, 234, 251);
 }
 
-footer a:hover {
+a:hover {
     color: rgb(245, 178, 168);
 }
 
